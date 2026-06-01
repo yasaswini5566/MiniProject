@@ -1,0 +1,54 @@
+
+1. IN Clause
+
+ Question:
+
+ Display employee name and department ID for employees who work in departments that have at least one project assigned.
+
+   IN with a subquery
+   Subquery returning multiple values
+
+
+
+2. NOT IN Clause
+
+ Question:
+
+ Display employee name for employees who work in departments that do not have any projects.
+
+   NOT IN usage
+   Missing relationship identification
+
+3. EXISTS
+
+ Question:
+ Display department names where at least one employee is working.
+
+4. NOT EXISTS
+
+ Question:
+
+ Display department names where no employees are assigned.
+
+
+ 5.IN vs EXISTS (Same Result, Different Approach)
+
+ Question:
+
+ Write two queries to display employees working in departments that have projects:
+
+    One using IN
+    One using EXISTS
+
+6.NOT IN vs NOT EXISTS
+
+ Question:
+
+ Display employees not assigned to any department using:
+
+    NOT IN
+    NOT EXISTS
+
+
+
+
